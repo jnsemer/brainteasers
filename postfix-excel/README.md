@@ -4,7 +4,7 @@ A spreadsheet can be a powerful but easy to use tool for repetitive tabulation. 
 
 For example, the spreadsheet:
 
-  |  A |  B
+|  |  A |  B
 --|---|--
  1 | 1  |  2 3 +
  2 | 2 A1 *  | B1 A2 /
@@ -12,10 +12,10 @@ For example, the spreadsheet:
 
 would evaluate to:
 
- |  A |  B
---|---|--
-1 | 1  |  5
-2 | 2 | 2.5
+|   |  A |  B |
+|---|---|---|
+| 1 | 1 | 5 |
+| 2 | 2 | 2.5 |
 
 For this problem, you may assume that every cell of a matrix contains a mathematical
 expression in postorder notation (meaning the operator follows the operands) which can
